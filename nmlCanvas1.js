@@ -53,7 +53,7 @@ const threeShapes = function () {
         ctx.fillRect(0, 0, canvas3.width, canvas3.height);
 
         ctx.fillStyle = "white";         // fill color to C60C30
-        ctx.fillRect(20, 10, 200, 140);  // fill rectangle
+        ctx.fillRect(20, 10, 196, 140);  // fill rectangle
 
     
 
@@ -65,26 +65,26 @@ const threeShapes = function () {
                         
 
         ctx.beginPath();                // begin new path
-        ctx.arc(120, 70, 25, 0, Math.PI * 2, true);
+        ctx.arc(118, 70, 25, 0, Math.PI * 2, true);
         ctx.strokeStyle = 'black';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
 
         ctx.beginPath();                // begin new path
-        ctx.arc(180, 70, 25, 0, Math.PI * 2, true);
+        ctx.arc(176, 70, 25, 0, Math.PI * 2, true);
         ctx.strokeStyle = 'red';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
 
        ctx.beginPath();                // begin new path
-        ctx.arc(85, 95, 25, 0, Math.PI * 2, true);
+        ctx.arc(89, 95, 25, 0, Math.PI * 2, true);
         ctx.strokeStyle = 'yellow';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
 
 
         ctx.beginPath();                // begin new path
-        ctx.arc(145, 95, 25, 0, Math.PI * 2, true);
+        ctx.arc(148, 95, 25, 0, Math.PI * 2, true);
         ctx.strokeStyle = 'green';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
@@ -96,25 +96,25 @@ const threeShapes = function () {
         ctx.stroke();
 
         ctx.beginPath();                // begin new path
-        ctx.arc(85, 95, 25, -Math.PI/6, -Math.PI*4/9, true);
+        ctx.arc(89, 95, 25, -Math.PI/6, -Math.PI*4/9, true);
         ctx.strokeStyle = 'yellow';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
 
         ctx.beginPath();                // begin new path
-        ctx.arc(120, 70, 25, Math.PI*5/6, Math.PI/2 , true);
+        ctx.arc(118, 70, 25, Math.PI*5/6, Math.PI/2 , true);
         ctx.strokeStyle = 'black';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
-
         ctx.beginPath();                // begin new path
-        ctx.arc(145, 95, 25, Math.PI*7/6 , Math.PI/2 , true);
-        ctx.strokeStyle = 'green';        
+        ctx.arc(118, 70, 25, Math.PI/6, Math.PI*3/2 , true);
+        ctx.strokeStyle = 'black';        
         ctx.lineWidth = 3;
         ctx.stroke();
 
+
         ctx.beginPath();                // begin new path
-        ctx.arc(180, 70, 25,Math.PI*5/6 , Math.PI/2 , true);
+        ctx.arc(176, 70, 25,Math.PI*5/6 , Math.PI/2 , true);
         ctx.strokeStyle = 'red';        
         ctx.lineWidth = 3;
         ctx.stroke(); 
